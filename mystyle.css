@@ -1,0 +1,68 @@
+html {
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+section {
+	text-align: center;
+	position: relative;
+}
+
+.coefficient {
+	display: flex;
+	margin-right: 10px;
+}
+
+.coefficients {
+	display: inline-flex;
+}
+
+.output_area {
+	display: inline-flex;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+#out1 {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+
+#table_section {
+	margin-top: 20px;
+}
+
+.odd {
+	background-color: #a8d8ff;
+}
+
+.even {
+	background-color: #dbefff;
+}
+
+.header {
+	font-weight: bold;
+	background-color: #a8d8ff;
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px solid #dbefff;
+	width: 800px;
+}
+
+caption {
+	color: #0079db;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+td {
+	border: 3px solid #dbefff;
+}

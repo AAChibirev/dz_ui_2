@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UI_2</title>
+	
+	<link rel="stylesheet" type="text/css" href="mystyle.css" />
+</head>
+<body>
+	<div class="container">
+		<section>
+			<h1>Quadratic equation Ax^2+Bx+C=0</h1>
+			
+			<div class="coefficients">
+				<div class="coefficient">
+					<div class="coeff_a">
+						A=
+					</div>
+					<div class="input_box">
+						<input type="text" id="id_a"/>
+					</div>
+				</div>
+				<div class="coefficient">
+					<div class="coeff_b">
+						B=
+					</div>
+					<div class="input_box">
+						<input type="text" id="id_b"/>
+					</div>
+				</div>
+				<div class="coefficient">
+					<div class="coeff_c">
+						C=
+					</div>
+					<div class="input_box">
+						<input type="text" id="id_c"/>
+					</div>
+				</div>
+			</div>	
+			
+			<input type="button" value="Solve" onclick="inputAndSolve()"/>
+		</section>
+		<section id="table_section">
+			<div class="output_area">
+				<div id="out1">Solution:</div>
+				<div id="out"></div>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="myscript.js"></script>
+</body>
+</html>
